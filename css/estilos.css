@@ -1,0 +1,41 @@
+/*CSS general**/
+
+body{
+    background-color: #222;
+    color: aliceblue;
+    font: 200 14px "Poppins", sans-serif;
+    
+}
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+p{
+    text-align: justify;
+}
+
+cite{
+    font-weight: 300;
+}
+h3{
+    color: #999;
+    font-size: 18px;
+}
+
+/*CSS clase**/
+.hashtag{
+    color: #ffc900
+}
+.seccion{
+    padding: 10px 100px 10px 100px;
+    
+}
+#experencia{
+    background-color: white;
+    color: #222;
+}
+
+#portfolio{
+    border-top: 1px solid #ffc900;
+}
