@@ -31,6 +31,12 @@ h3{
     padding: 10px 100px 10px 100px;
     
 }
+#inicio{
+    background-image: url("/Portafolio/recursos/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    min-height: 280px;
+}
 #experencia{
     background-color: white;
     color: #222;
