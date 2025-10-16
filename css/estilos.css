@@ -18,6 +18,16 @@ p{
 cite{
     font-weight: 300;
 }
+i{
+    font-size: 24px;
+}
+
+li{
+    float:left;
+    width: 30px;
+    margin-right: 5px;
+}
+
 h3{
     color: #999;
     font-size: 18px;
@@ -29,8 +39,13 @@ h3{
 }
 .seccion{
     padding: 10px 100px 10px 100px;
+}
+#redessociales{
+    margin-top: 20px;
+    list-style: none;
     
 }
+
 #inicio{
     background-image: url("/Portafolio/recursos/fondo.jpg");
     background-repeat: no-repeat;
