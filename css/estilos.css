@@ -21,16 +21,50 @@ cite{
 i{
     font-size: 24px;
 }
+I:hover{
+    color: #ffc900;
+    cursor: pointer;
+}
+
+a:any-link{
+    color: white;
+}
+
+a:-webkit-any-link{
+    color: white;
+}
+
+a:-moz-any-link{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
 
 li{
     float:left;
-    width: 30px;
     margin-right: 5px;
 }
 
 h3{
     color: #999;
     font-size: 18px;
+}
+
+nav{
+    background-color: 222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+
+}
+nav ul{
+    display: inline-block;
+}
+
+section{
+    padding: 10px 100px 10px 100px;
 }
 
 /*CSS clase**/
@@ -42,12 +76,11 @@ h3{
 }
 #redessociales{
     margin-top: 20px;
-    list-style: none;
     
 }
 
 #inicio{
-    background-image: url("/Portafolio/recursos/fondo.jpg");
+    background-image: url("../recursos/fondo.jpg");
     background-repeat: no-repeat;
     background-size:cover ;
     min-height: 280px;
