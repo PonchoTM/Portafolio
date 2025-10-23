@@ -36,10 +36,13 @@
             <!--Fin de bloque inicio-->
             <!--Inicio de bloque Sobre mi-->
             <section id="sobremi">
-                <h2>Sobre mí</h2>
-                <img src="recursos/aboutme2.png" alt="imagen luis">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Inventore ea dolores libero eaque saepe quam</strong>, aperiam ducimus. <span>, maxime! Fugiat laboriosam </span> eius sapiente alias quasi aut illum doloribus tenetur recusandae!</p>
-                <p><cite>Esto es un ejemplo de cita</cite></p>
+                <div id="imagensobremi"><img src="recursos/aboutme2.png" alt="imagen luis"></div>
+                <div id="bodysobremi">
+                    <h2>Sobre mí</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Inventore ea dolores libero eaque saepe quam</strong>, aperiam ducimus. <span>, maxime! Fugiat laboriosam </span> eius sapiente alias quasi aut illum doloribus tenetur recusandae!</p>
+                    <p><cite>Esto es un ejemplo de cita</cite></p>
+                    <div class="masinfo"><button type="button">MAS INFO</button></div>
+                </div>
             </section>
             <section id="portfolio">
                 <h2>Portfolio</h2>
@@ -83,7 +86,64 @@
             <section id="experencia">
                 <h2>Experencia&Skills</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam quis perspiciatis perferendis cupiditate maiores aliquid! Sit architecto itaque tempore delectus molestiae, eum in eaque laudantium distinctio magnam velit dignissimos.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus quaerat hic. Quia quod eos numquam assumenda voluptatem rem quis voluptatibus optio, placeat modi necessitatibus hic soluta, sunt fuga quae.</p>
+                <div class="gridexp">
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </section>
+            <!--Bloque Portfolio-->
+            <section id="contactar">
+                <h2>Contacto</h2>
+                <h3>Enviame tus dudas</h3>
+                <form action="#">
+                    <div class="itemform">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" minlength="2" maxlength="128" size="32">
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32">
+                    </div>
+                    <div class="itemform">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" cols="33" rows="5"></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="enviar" value="CONTACTAR" targe="_blank">
+                    </div>
+                </form>
             </section>
         </article>
         <!--Footer-->
