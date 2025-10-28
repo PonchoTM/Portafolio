@@ -5,51 +5,148 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/Portafolio/css/estilos.css">
+        <script src="https://kit.fontawesome.com/9189d68c13.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/estilos.css">
     </head>
     <body>
-        <!--Bloque de inicio-->
-        <div id="inicio" class="seccion">
-            <h2>Alfonso</h2>
-            <h3 class="hashtag">#Sistemas</h3>
-            <h3 class="hashtag">#Gymrat</h3>
-        </div>
-        <!--Fin de bloque inicio-->
-        <!--Inicio de bloque Sobre mi-->
-        <div id="sobremi" class="seccion">
-            <h2>Sobre mí</h2>
-            <img src="recursos/aboutme2.png" alt="imagen luis">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Inventore ea dolores libero eaque saepe quam</strong>, aperiam ducimus. <span>, maxime! Fugiat laboriosam </span> eius sapiente alias quasi aut illum doloribus tenetur recusandae!</p>
-            <p><cite>Esto es un ejemplo de cita</cite></p>
-        </div>
-        <div id="portfolio" class="seccion">
-             <h2>Portfolio</h2>
-            <h3>Una mirada mas allá del texto</h3>
-            <table>
-                <thead>
-                    <th colspan="4"> Ejemplos de portfolio</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Musica</td>
-                        <td>Tecnologia</td>
-                        <td>Ejercicio</td>
-                        <td>Experencias</td>
-                    </tr>
-                    <tr>
-                        <td>Conciertos</td>
-                        <td>Analisis de datos</td>
-                        <td>Gimnasio</td>
-                        <td>Vivir</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!--Bloque de experiencia-->
-         <div id="experencia" class="seccion">
-            <h2>Experencia&Skills</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam quis perspiciatis perferendis cupiditate maiores aliquid! Sit architecto itaque tempore delectus molestiae, eum in eaque laudantium distinctio magnam velit dignissimos.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus quaerat hic. Quia quod eos numquam assumenda voluptatem rem quis voluptatibus optio, placeat modi necessitatibus hic soluta, sunt fuga quae.</p>
-        </div>
+        <!--Menu navegacion-->
+        <nav>
+            <ul>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li id="liImg"><img src="./recursos/logo.png" alt="Logo pesas" id="logo"></li>
+                <li><a href="#experencia">Experiencia&Skills</a></li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <article>
+            <!--Bloque de inicio-->
+            <section id="inicio">
+                <h2>Alfonso</h2>
+                <h3 class="hashtag">#Sistemas</h3>
+                <h3 class="hashtag">#Gymrat</h3>
+                <ul id="redessociales">
+                    <li><a href="https://fontawesome.com/icons/linkedin?f=brands&s=solid" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/?locale=es_LA"  target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""></a><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </section>
+            <!--Fin de bloque inicio-->
+            <!--Inicio de bloque Sobre mi-->
+            <section id="sobremi">
+                <div id="imagensobremi"><img src="recursos/aboutme2.png" alt="imagen luis"></div>
+                <div id="bodysobremi">
+                    <h2>Sobre mí</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Inventore ea dolores libero eaque saepe quam</strong>, aperiam ducimus. <span>, maxime! Fugiat laboriosam </span> eius sapiente alias quasi aut illum doloribus tenetur recusandae!</p>
+                    <p><cite>Esto es un ejemplo de cita</cite></p>
+                    <div class="masinfo"><button type="button">MAS INFO</button></div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <h3>Una mirada mas allá del texto</h3>
+                <div class="filaportafolio">
+                    <div class="card">
+                        <img src="./recursos/images.png" alt="portfolio1">
+                        <h3>Musica</h3>
+                        <h4>Concierto</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./recursos/images.png" alt="portfolio1">
+                        <h3>Musica</h3>
+                        <h4>Concierto</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./recursos/images.png" alt="portfolio1">
+                        <h3>Musica</h3>
+                        <h4>Concierto</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./recursos/images.png" alt="portfolio1">
+                        <h3>Musica</h3>
+                        <h4>Concierto</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                </div>
+            </section>
+            <!--Bloque de experiencia-->
+            <section id="experencia">
+                <h2>Experencia&Skills</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam quis perspiciatis perferendis cupiditate maiores aliquid! Sit architecto itaque tempore delectus molestiae, eum in eaque laudantium distinctio magnam velit dignissimos.</h3>
+                <div class="gridexp">
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2025 - Presente</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </section>
+            <!--Bloque Portfolio-->
+            <section id="contactar">
+                <h2>Contacto</h2>
+                <h3>Enviame tus dudas</h3>
+                <form action="#">
+                    <div class="itemform">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" minlength="2" maxlength="128" size="32">
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32">
+                    </div>
+                    <div class="itemform">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" cols="33" rows="5"></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="enviar" value="CONTACTAR" targe="_blank">
+                    </div>
+                </form>
+            </section>
+        </article>
+        <!--Footer-->
+        <footer></footer>
     </body>
 </html>  
